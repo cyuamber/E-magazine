@@ -1,0 +1,94 @@
+.mint-msgbox {
+  border-radius: 12px;
+  .mint-msgbox-header {
+    .mint-msgbox-title {
+      padding: 15px 0;
+      font-size: 36px;
+      color: #333;
+    }
+  }
+  .mint-msgbox-content {
+    .mint-msgbox-message {
+      padding: 15px 0;
+      font-size: 26px;
+      line-height: 50px;
+      text-align: left;
+    }
+  }
+  .mint-msgbox-btns {
+    height: 88px;
+    font-size: 32px;
+  }
+}
+
+.mint-toast-text {
+  font-size: 32px;
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+.mint-indexlist-nav {
+  border: none;
+  width: 40px;
+  .mint-indexlist-navitem {
+    font-size: 28px;
+  }
+}
+
+.mint-cell {
+  padding: 15px 0;
+}
+
+.mint-cell-text {
+  font-size: 28px;
+}
+
+.mint-indexsection-index {
+  height: 48px;
+  line-height: 48px
+}
+
+.mint-cell-wrapper {
+  height: 60px;
+}
+
+.mint-switch-core {
+  width: 96px;
+  height: 56px;
+  &:before {
+    width: 92px;
+    height: 52px;
+    transform: scale(1, 1);
+  }
+  &:after {
+    width: 54px;
+    height: 54px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+    transform: translate(0, -1px);
+  }
+}
+
+.mint-switch-input:checked+.mint-switch-core {
+  border-color: #00E066;
+  background-color: #00E066;
+}
+
+.mint-switch-input:checked+.mint-switch-core::after {
+  transform: scale(0, 0);
+}
+
+.mint-switch-input:checked+.mint-switch-core::after {
+  transform: translate(40px, -1px);
+}
+
+.mt-range {
+  .mt-range-thumb {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: -12px;
+  }
+}
+.el-input__inner{
+  border-radius: 100px;
+}
